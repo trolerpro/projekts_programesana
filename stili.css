@@ -13,3 +13,9 @@
 body {
     background-color: #31FFFF;
   }
+  .feature{
+    flex-direction: column;
+  }
+  .container{
+    display: flex;
+  }
