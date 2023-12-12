@@ -6,16 +6,39 @@
 }
 .feature-icon {
     
-    width: 4rem;
-    height: 4rem;
-    border-radius: 0.75rem;
+  width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
 }
 body {
     background-color: #31FFFF;
   }
-  .feature{
-    flex-direction: column;
-  }
   .container{
     display: flex;
+    flex-direction: row-reverse;
   }
+  .fg{
+
+    text-align: center;
+    vertical-align: middle;
+  }
+.heddding{
+  position: relative; 
+  bottom: 10px;
+}
+   
+.footser {
+  height:auto;
+  background-color:#31FFFF;
+  padding-top: 30px;
+  padding-bottom:30px;
+}
+
+.twitter{
+  width:3em;
+}
+
+.twitters {
+ margin-left:auto;
+  margin-right:8000px;
+}
